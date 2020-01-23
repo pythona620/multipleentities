@@ -8,8 +8,8 @@ class TomatoSkill(MycroftSkill):
         self.register_intent_file('where.are.intent', self.handle_where_are) #register the intentes
         self.register_intent_file('i.am.intent', self.handle_i_am) #register the intentes
 
-#     def handle_what_is(self, message): #get the intent
-#         self.speak('your friend is going') 
+    def handle_what_is(self, message): #get the intent
+        self.speak('your friend is going') 
 
 #     def handle_do_you_like(self, message):
 #         going_from = message.data.get('type1')  #get the specific keword into type
