@@ -14,7 +14,7 @@ class TomatoSkill(MycroftSkill):
     def handle_do_you_like(self, message):
         tomato_type = message.data.get('type')  #get the specific keword into type
         if tomato_type is not None:
-            self.speak("your friend is going to " + tomato_type ) #print specific keword
+            self.speak("your friend is going" + tomato_type ) #print specific keword
         else:
             self.speak('you are not given any specific word!') #print if specific keword is not given
 
