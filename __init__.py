@@ -15,7 +15,7 @@ class TomatoSkill(MycroftSkill):
         going_from = message.data.get('type1')  #get the specific keword into type
         going = message.data.get('type2') 
         if tomato_type is not None:
-            self.speak("Well, your specific keyword is " + going_from + going + " in your word.") #print specific keword
+            self.speak("Well, your specific keyword is " + "going_from" + "going" + " in your word.") #print specific keword
         else:
             self.speak('you are not given any specific word!') #print if specific keword is not given
 
