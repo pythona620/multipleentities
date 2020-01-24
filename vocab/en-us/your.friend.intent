@@ -1,6 +1,6 @@
 iam going from 
 i travel to
 i am from to
-i travel {type} to
-i am from {type} to
-iam going {condition} from {temp}
+i travel {{from} to {to}
+i am from {from} to {to}
+iam going {from} from {to}
