@@ -1,0 +1,10 @@
+{   
+    "utterance": "What are you going",
+    "intent_type": "WhatToRememberIntent",
+    "expected_dialog": "iremembered",
+    "intent": {
+        "Did": "did",
+        "You": "you",
+        "going": "going"
+    }
+}
