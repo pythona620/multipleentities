@@ -1,3 +1,1 @@
-i travel {from} to {to}
-i am from {from} to {to}
-iam going {from} from {to}
+(i am|iam|we|are|i)(going|go|travel|journy|return){from} to {to}
