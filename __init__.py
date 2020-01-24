@@ -6,7 +6,7 @@ class multipleentitiesSkill(MycroftSkill):
 
     def initialize(self):
         self.register_intent_file('what.is.intent', self.handle_what_is) #register the intentes
-        self.register_intent_file('your.friend.intent', self.handle_do_you_like) #register the intentes
+        self.register_intent_file('your.friend.intent', self.handle_your_friend) #register the intentes
 
     def handle_what_is(self, message): 
         self.speak('your friend is going to some place') #not given place
