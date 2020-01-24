@@ -14,6 +14,10 @@ class multipleentitiesSkill(MycroftSkill):
     def handle_do_you_like(self, message):
         first_type = message.data.get('from')  #get the first keword
         second_type = message.data.get('to') #get the second keword
+        
+        if first_type is not None:
+            self.speak("your friend is going " + first_type ) #print specific keword
+       
         if first_type is not None:
             self.speak("your friend is going " + first_type  + " " + "to" + " "+  second_type ) #print specific keword
             self.speak(first_type + " "+second_type)
