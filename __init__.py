@@ -10,7 +10,7 @@ class multipleentitiesSkill(MycroftSkill):
 
     def handle_what_is(self, message): 
         self.speak('your friend is going to some place') #not given place
-        self.speak(first_type + " "+second_type
+        self.speak(first_type + " "+second_type)
 
 #     def handle_do_you_like(self, message):
 #         first_type = message.data.get('from')  #get the first keword
